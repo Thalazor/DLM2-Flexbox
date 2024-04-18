@@ -48,6 +48,10 @@ padding: 0;
     border-bottom: 1px solid var(--color-gray)
 }
 
+.main-container {
+    display: flex;
+}
+
 .contacts-container {
     width: 20%;
     border-right: 1px solid var(--color-gray);
@@ -69,6 +73,7 @@ padding: 0;
     height: 50px;
     border-radius: 50%;
     margin-right: 1rem;
+    border: 2px solid var(--color-platinum)
 }
 
 .contact-header img:hover {
@@ -115,12 +120,30 @@ padding: 0;
 .contact-label {
     width: 100%;
     display: flex;
-    padding: 1rem;
+    padding: 0.5rem;
     align-items: center;
+}
+
+.contact-label:hover {
+    cursor: pointer;
+    background-color: #cdc3e6;
 }
 
 .contact-label img {
     height: 60px;
     border-radius: 50%;
     margin-right: 1rem;
+    border: 2px solid var(--color-platinum)
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-container img {
+    width: 25%;
+    margin: 2rem;
 }
