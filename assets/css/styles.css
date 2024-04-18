@@ -141,6 +141,11 @@ padding: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.chat-container h2 {
+    font-size: 3rem;
 }
 
 .chat-container img {
